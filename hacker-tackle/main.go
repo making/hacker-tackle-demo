@@ -60,14 +60,6 @@ func toEmoji(i int) string {
 	}
 }
 
-func hakata(s string) string {
-	return strings.Replace("*  *  **   *  *   **   ****  ** \n"+
-		"*  * *  *  * *   *  *     *    *  *\n"+
-		"*** ***  **    ***    *    ***\n"+
-		"*  * *   * *  *  *   *    *    *  *\n"+
-		"*  * *   * *   * *   *    *    *  *\n", "*", s, -1)
-}
-
 func hackertacle(s string) string {
 	return strings.Replace("*  *  **    *** *   * ***  ***  \n"+
 		"*  * *  *  *      *  *  *      *   * \n"+
