@@ -1,0 +1,4 @@
+package: github.com/making/hacker-tackle-demo/mysql-demo
+import:
+- package: github.com/bitly/go-simplejson
+- package: github.com/go-sql-driver/mysql

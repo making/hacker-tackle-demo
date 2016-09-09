@@ -1,0 +1,4 @@
+package: github.com/making/hacker-tackle-demo/mysql-demo-cfenv
+import:
+- package: github.com/cloudfoundry-community/go-cfenv
+- package: github.com/go-sql-driver/mysql
