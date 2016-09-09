@@ -1,0 +1,5 @@
+applications:
+- name: zero-downtime-jre-update
+  buildpack: https://github.com/cloudfoundry/java-buildpack#v3.8.1
+  memory: 256m
+  path: target/zero-downtime-jre-update-0.0.1-SNAPSHOT.jar
