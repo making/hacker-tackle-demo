@@ -15,6 +15,9 @@ func main() {
 		port = "4000"
 	}
 	http.HandleFunc("/", hello)
+	http.HandleFunc("/kill", func(res http.ResponseWriter, req *http.Request) {
+		os.Exit(-1)
+	})
 	fmt.Println("listening at " + port)
 	if err := http.ListenAndServe(":"+port, nil); err != nil {
 		log.Fatal("ListenAndServe:", err)
