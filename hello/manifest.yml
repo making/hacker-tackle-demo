@@ -1,0 +1,4 @@
+applications:
+- name: hello
+  memory: 8m
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.7.12
